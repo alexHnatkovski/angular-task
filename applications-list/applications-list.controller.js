@@ -4,7 +4,7 @@
     function ($scope, applicationsList) {
       $scope.applications = applicationsList;
 
-      $scope.selectedApp = {};
+      $scope.selectedApp = $scope.applications[0];
 
       $scope.selectApplication = function(application) {
         $scope.selectedApp = application;
