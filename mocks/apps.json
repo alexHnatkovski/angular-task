@@ -1,0 +1,27 @@
+[
+  {
+    "name": "JIRA",
+    "img": "images/jira-hires.png",
+    "description": "JIRA is used for issue tracking and project management by over 25,000 customers in 122 countries around the globe."
+  },
+  {
+    "name": "Salesforce",
+    "img": "images/salesforce-hires.png",
+    "description": "Salesforce provides on-demand customer relationship management (CRM) software services to help companies with global customer communication."
+  },
+  {
+    "name": "Github",
+    "img": "images/github-hires.png",
+    "description": "Online project hosting using Git. Includes source-code browser, in-line editing, wikis, and ticketing. Free for public open-source code."
+  },
+  {
+    "name": "BMC Remedy",
+    "img": "images/bmc-hires.png",
+    "description": "Remedy ITSM sets a new standard for the digital workplace with an intuitive, engaging interface that helps you work smarter. Deliver service from anywhere with the fully-mobile experience and build engaged teams with embedded social and collaboration capabilities."
+  },
+  {
+    "name": "Slack",
+    "img": "images/slack-hires.png",
+    "description": "Slack brings all your communication together in one place. It's real-time messaging, archiving and search for modern teams."
+  }
+]

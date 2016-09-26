@@ -1,0 +1,13 @@
+<div class="applications-container">
+    <div class="applications-list">
+        <div ng-repeat="app in applications">
+            <app-item config="app" remove-item="removeApplication($index)" ng-click="selectApplication(app)" ng-class="{'selected-app': selectedApp.name === app.name}"></app-item>
+        </div>
+    </div>
+    <div class="application-description-editor">
+        <form name="applicationDescriptionForm" data-toggle="validator">
+            <textarea name="applicationDescription" required id="" cols="10" rows="10" ng-model="selectedApp.description"></textarea>
+            <span class="validation-error" ng-show="selectedApp.name && applicationDescriptionForm.applicationDescription.$error.required">Description is required.</span>
+        </form>
+    </div>
+</div>

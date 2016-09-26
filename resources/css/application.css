@@ -1,0 +1,74 @@
+div[ng-view] {
+    padding: 10px;
+}
+.applications-container {
+    display: flex;
+}
+
+.applications-container > div {
+    width: 50%;
+}
+
+.applications-container .application-description-editor textarea{
+    height: 55px;
+    width: 100%;
+}
+
+.applications-container .application-description-editor .validation-error {
+    color: #e9322d;
+}
+
+app-item .application-block {
+    cursor: pointer;
+    display: table-row;
+    height: 100px;
+}
+
+app-item .application-block:hover,
+.selected-app .application-block{
+    background: #ADD8E6;
+}
+
+
+app-item .application-icon,
+app-item .application-info,
+app-item .application-actions {
+    display: table-cell;
+}
+
+app-item .application-info {
+    width: 425px;
+}
+app-item .application-actions {
+    width: 230px;
+}
+
+app-item .application-info > p {
+    padding-right: 20px;
+}
+
+app-item .application-icon {
+    width: 60px;
+}
+
+app-item .application-icon > img {
+    height: 45px;
+}
+
+app-item .application-actions > .btn{
+    align-items: center;
+    border: 1px solid #D73A33;
+    background: #D9534F;
+    display: flex;
+    justify-content: center;
+    height: 35px;
+    width: 35px;
+    padding: 0;
+}
+
+app-item .application-actions > .btn:hover,
+app-item .application-actions > .btn:active,
+app-item .application-actions > .btn:focus {
+    border: 1px solid #D73A33;
+    background: #D9534F;
+}
